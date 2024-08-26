@@ -1,4 +1,4 @@
-/*
+//Implementation of inseriton sorting algorithm
 #include <iostream>
 using namespace std;
 
@@ -34,7 +34,8 @@ int main()
     cout<<endl;
     return 0;
 }
-*/
+
+//
 #include <iostream>
 #include <climits>
 using namespace std;
