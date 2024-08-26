@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 //Function to search the key in 2D array
@@ -296,7 +295,7 @@ int main()
     }
     return 0;
 }
-*/
+
 //Largest word in a sentence
 #include <iostream>
 using namespace std;
