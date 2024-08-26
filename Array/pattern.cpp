@@ -1,4 +1,5 @@
 //Patterns using for loops and if condition
+
 #include <iostream>
 using namespace std;
 
