@@ -128,30 +128,38 @@ int main()
 //Write a program to find a unique number in an array where all number except one are present in thrice
 #include <iostream>
 using namespace std;
+
+// Function to check if a specific bit is set
 bool getBit(int n, int pos)
 {
     return ((n & (1<<pos)) != 0);
 }
+//Function to set a specific bit
 int setBit(int n, int pos)
 {
     return (n | (1<<pos));
 }
+//Function to find the unique number in an array
 int uniqueNum(int arr[], int n)
 {
-    int result = 0;
+    int result = 0; //Variable to store unique number
+    //loop over each bit position (0 to 63 for standard int)
     for(int i=0; i<64; i++)
     {
-        int sum = 0;
+        int sum = 0; //to count how many numbers have i-th bit set
         for(int j=0; j<n; j++)
         {
-            if(getBit(arr[j],i))
+            if(getBit(arr[j],i)) //checks if the i-th bit is set in arr[j]
             {
-                sum++;
+                sum++; //increment the sum if the bit is set
             }
         }
+
+        // If the count of the set bits at position i is not a multiple of 3,
+        // it means the unique number has this bit set
         if(sum%3 != 0)
         {
-            result = setBit(result, i);
+            result = setBit(result, i); //set the i-th bit in the result
         }
     }
     return result;
