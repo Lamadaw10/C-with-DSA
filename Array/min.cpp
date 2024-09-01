@@ -1,4 +1,4 @@
-/*
+//Calculating sum of an array and finding max number in an array
 #include <iostream>
 using namespace std;
 
@@ -19,7 +19,7 @@ int main()
     cout<<"Sum is "<<sum<<endl;
     return 0;
 }
-*/
+
 #include <iostream>
 #include <climits>
 using namespace std;

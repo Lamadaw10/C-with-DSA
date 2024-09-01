@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 796750493c209595c558ae45ac36b5d64e146150
 #include <iostream>
 using namespace std;
 //Function to search the key in 2D array

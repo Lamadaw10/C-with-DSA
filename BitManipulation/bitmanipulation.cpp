@@ -1,4 +1,3 @@
-/*
 // Write a program to check if given number is power of 2
 #include <iostream>
 using namespace std;
@@ -124,7 +123,7 @@ int main()
     findTwoUniqueNums(arr,8);
     return 0;
 }
-*/
+
 //Write a program to find a unique number in an array where all number except one are present in thrice
 #include <iostream>
 using namespace std;
