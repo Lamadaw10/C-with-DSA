@@ -1,4 +1,3 @@
-/*
 //Problem-1
 //Finding the prime numbers till n using Sieve of Eratosthenes method
 #include <iostream>
@@ -43,7 +42,6 @@ int main()
 
     return 0;
 }
-*/
 
 //Problem-2
 //Prime Factorisation using Sieve
