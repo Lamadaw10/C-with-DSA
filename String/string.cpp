@@ -63,7 +63,7 @@ void nothing(string f)
     }
 }
 
-void delet(string g)
+void delete(string g)
 {
     g.erase(4,2);
     cout<<g<<endl;
@@ -105,7 +105,7 @@ int main()
     clears(s4);
     compare(s1,s2);
     nothing(s4);
-    delet(s4);
+    delete(s4);
     finding(s4);
     inserting(s4);
     length(s4);
