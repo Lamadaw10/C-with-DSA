@@ -1,4 +1,3 @@
-/*
 //To read and write in a file
 #include <iostream>
 #include <fstream> //use for accessing istream and ostream classes
@@ -95,7 +94,7 @@ int main()
     f.close();
     return 0;
 }
-*/
+
 //Tried to make a thangka painters data info
 #include <iostream>
 #include <fstream>
